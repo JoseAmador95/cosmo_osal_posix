@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+		"C_Cpp.clang_format_path": "clang-format",
+		"C_Cpp.codeAnalysis.clangTidy.enabled": true,
+		"C_Cpp.clang_format_sortIncludes": true,
+		"C_Cpp.codeAnalysis.clangTidy.path": "/clang-tidy",
+		"C_Cpp.codeAnalysis.exclude": {
+			"tools/code-style/": true,
+			"tools/unity/": true,
+			"build/": true
+		},
+		"cmake.cmakePath": "cmake",
+		"C_Cpp.codeAnalysis.clangTidy.useBuildPath": false,
+		"C_Cpp.default.cStandard": "c17",
+		"mergeEditor.diffAlgorithm": "advanced",
+		"files.associations": {
+			".clang-*": "yaml",
+			"*.h": "c",
+			"*.c": "c",
+			"*.c.in": "c",
+			"*.py": "python",
+		},
+		"C_Cpp.loggingLevel": "Warning",
+		"cmake.ctestArgs": [
+			"--output-on-failure"
+		],
+		"cmake.setBuildTypeOnMultiConfig": true,
+	},
+}

@@ -1,0 +1,13 @@
+{
+    "name": "cosmo-dev",
+    "image": "docker.io/joseamador95/devcontainer:main",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "albert.TabOut",
+                "ms-vscode.cpptools",
+                "ms-vscode.cmake-tools"
+            ]
+        }
+    }
+}

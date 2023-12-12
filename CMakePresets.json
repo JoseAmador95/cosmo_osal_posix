@@ -1,0 +1,27 @@
+{
+    "version": 6,
+    "configurePresets": [
+        {
+            "name": "default",
+            "displayName": "Default Config",
+            "description": "Default build",
+            "binaryDir": "${sourceDir}/build/default",
+            "cacheVariables": {
+                "TESTS_ENABLED": {
+                    "type": "BOOL",
+                    "value": "OFF"
+                }
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "default",
+            "configurePreset": "default",
+            "targets": [
+                "cosmo_hal_posix"
+            ]
+        }
+    ],
+    "testPresets": []
+}
